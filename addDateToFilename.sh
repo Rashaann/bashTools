@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-addDateToFilename(){
+function addDateToFilename(){
     # Load in the functions and animations
     username=$(whoami)
     locationFile=$(find /Users/${username}/Desktop/bashTools -iname "spinner.sh")

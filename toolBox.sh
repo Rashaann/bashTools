@@ -59,9 +59,9 @@ echo ""
 sleep 0.5
 echo "Please choose one of the tools listed below: [1-2]"
 sleep 0.5
-echo "1. Timer"
-echo "2. Rename It"
-echo "3. Pass Generator"
+echo "[1] Timer"
+echo "[2] Rename It"
+echo "[3] Pass Generator"
 echo ""
 
 read tool

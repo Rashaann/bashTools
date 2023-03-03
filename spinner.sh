@@ -1,5 +1,6 @@
-spinner()
-{
+#Function that emulate a processing "icon"
+#by displaying a spin
+function spinner(){
     local pid=$!
     local delay=0.75
     local spinstr='|/-\'

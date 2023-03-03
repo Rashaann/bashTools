@@ -2,7 +2,7 @@
 
 
 
-timer(){
+function timer(){
     BLUE='\033[0;34m'
     NC='\033[0m' # No Color
 
@@ -24,8 +24,8 @@ timer(){
 
 
     echo "Do you want to shutdown your computer now or to set a timer? [1-2]"
-    echo "1. Now"
-    echo "2. Timer"
+    echo "[1] Now"
+    echo "[2] Timer"
     echo ""
     read mode
 
