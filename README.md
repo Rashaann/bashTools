@@ -1,4 +1,4 @@
-# Bash Tools
+# Toolbox
 
 -----
 
@@ -18,7 +18,7 @@ Firstly, in order to ease the research, please place the 'bashTools' folder in y
 
 Then, to run the tools, you need to write down the command line below.
 ```
-sh bashTools.sh
+sh toolBox.sh
 ```
 
 Have fun! 😉
