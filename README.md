@@ -8,8 +8,10 @@ Here are tools that allow you to focus on passionnate projects by automaing day-
 1. Timer
 2. Rename It
 
-Warning: Those tools were made on and for macos users!
+```diff
+-- Warning: Those tools were made on a macbook is, thus, firstly destined for macos users!
 Thus, I don't guarantee that these will work on other environment.
+```
 
 ## Command lines to start the tools
 Firstly, in order to ease the research, please place the 'bashTools' folder in your Desktop.
