@@ -8,8 +8,8 @@ Here are tools that allow you to focus on passionnate projects by automaing day-
 1. Timer
 2. Rename It
 
-![#f03c15](https://via.placeholder.com/15/f03c15/f03c15.png) `Warning: Those tools were made on a macbook is, thus, firstly destined for macos users!
-Thus, I don't guarantee that these will work on other environment.`
+🚨🚨🚨 Warning: Those tools were made on a macbook is, thus, firstly destined for macos users!
+Thus, I don't guarantee that these will work on other environment. 🚨🚨🚨
 
 
 ## Command lines to start the tools
