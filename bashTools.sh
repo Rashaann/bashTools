@@ -61,6 +61,7 @@ echo "Please choose one of the tools listed below: [1-2]"
 sleep 0.5
 echo "1. Timer"
 echo "2. Rename It"
+echo "3. Pass Generator"
 echo ""
 
 read tool
@@ -71,6 +72,9 @@ then
 elif [[ $tool == 2 ]]
 then
     timer
+elif [[ $tool == 3 ]]
+then
+    python3 /Users/${username}/Desktop/bashTools/pass_generator.py
 else
     echo "Wrong option entered. End of the program.💤💤"
 fi

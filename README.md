@@ -7,6 +7,7 @@ Greetings to you who seek time saving solutions to enhance productivity!
 Here are tools that allow you to focus on passionnate projects by automaing day-to-day tasks:
 1. Timer
 2. Rename It
+3. Pass Generator
 
 🚨🚨🚨 Warning: Those tools were made on a macbook is, thus, firstly destined for macos users!
 Thus, I don't guarantee that these will work on other environment. 🚨🚨🚨
@@ -17,7 +18,7 @@ Firstly, in order to ease the research, please place the 'bashTools' folder in y
 
 Then, to run the tools, you need to write down the command line below.
 ```
-    sh bashTools.sh
+sh bashTools.sh
 ```
 
 Have fun! 😉
@@ -31,3 +32,7 @@ If, like me, you spend all the time coding and/or watching series, you'll find t
 ### Rename It
 Rename It is a tool consisting of adding the current date as a prefix of file's name.
 After asking you the extension of the files to be renamed, it will search those matching the extension in the current folder and update them.
+
+### Pass Generator
+Tool allowing you to choose the length of your password plus decide whether or not you want to use special characters.
+Regarding the previous setup, the Pass Generator will generate a random password to secure your account without the inconvenient to spend more time than necessary to create it.
