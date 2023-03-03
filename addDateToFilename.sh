@@ -4,7 +4,7 @@
 function addDateToFilename(){
     # Load in the functions and animations
     username=$(whoami)
-    locationFile=$(find /Users/${username}/Desktop/bashTools -iname "spinner.sh")
+    locationFile=$(find /Users/${username}/Desktop/toolBox -iname "spinner.sh")
     source $locationFile
 
 

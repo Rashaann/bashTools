@@ -9,11 +9,11 @@ NC='\033[0m' # No Color
 # Load in the functions and animations
 username=$(whoami)
 # Rename It
-locationFileRI=$(find /Users/${username}/Desktop/bashTools -iname "addDateToFilename.sh")
+locationFileRI=$(find /Users/${username}/Desktop/toolBox -iname "addDateToFilename.sh")
 source $locationFileRI
 
 # Rename It
-locationFileT=$(find /Users/${username}/Desktop/bashTools -iname "timer.sh")
+locationFileT=$(find /Users/${username}/Desktop/toolBox -iname "timer.sh")
 source $locationFileT
 
 
@@ -68,13 +68,13 @@ read tool
 
 if [[ $tool == 1 ]]
 then
-    addDateToFilename
+    timer
 elif [[ $tool == 2 ]]
 then
-    timer
+    addDateToFilename
 elif [[ $tool == 3 ]]
 then
-    python3 /Users/${username}/Desktop/bashTools/pass_generator.py
+    python3 /Users/${username}/Desktop/toolBox/pass_generator.py
 else
     echo "Wrong option entered. End of the program.💤💤"
 fi
